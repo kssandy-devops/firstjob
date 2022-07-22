@@ -1,0 +1,6 @@
+---
+- hosts: myfirstinventory
+  tasks:
+    - file:
+       path: /opt/motd
+       state: touch
