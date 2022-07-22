@@ -1,5 +1,5 @@
 ---
-- hosts: myfirstinventory
+- hosts: all
   tasks:
     - file:
        path: /opt/motd
